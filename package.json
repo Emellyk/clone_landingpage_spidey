@@ -1,0 +1,27 @@
+{
+  "name": "clone_landingpage_spidey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emellyk/clone_landingpage_spidey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Emellyk/clone_landingpage_spidey/issues"
+  },
+  "homepage": "https://github.com/Emellyk/clone_landingpage_spidey#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.57.0"
+  }
+}
