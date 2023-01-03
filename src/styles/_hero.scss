@@ -5,9 +5,10 @@
     min-height: 80vh;
     background-image: url(../images/background_spidey.jpg);
     background-color: variaveis.$corDeFundo;
-    background-size: cover;
+    background-size: contain;
     position: sticky;
-
+    background-repeat: no-repeat;
+    
     .button {
         margin-top: 2vw;
         margin-bottom: 8px;
@@ -24,6 +25,7 @@
         &__branding {
             max-width: 320px;
             margin: 0 auto 38px;
+            z-index: 2;
         }
         
         img {
@@ -144,6 +146,5 @@
         position: absolute;
         inset: 0px;
         background-size: cover;
-        
     }
 }
