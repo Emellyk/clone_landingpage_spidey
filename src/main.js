@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const heroSection = document.querySelector('.hero');
-    const alturaHero = heroSection.clientHeight;
+    const alturaHero = 81;
 
     window.addEventListener('scroll', function() {
         const posicaoAtual = window.scrollY;
